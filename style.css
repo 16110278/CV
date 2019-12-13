@@ -589,10 +589,10 @@ background-color:rgba(0,0,0,0.8)
 .modal-content{
 	margin: auto;
 	display: block;
-   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+   
+width: 80%;
+  max-width: 700px;
+
 }
 
 
@@ -609,23 +609,50 @@ filter:alpha(opacity=60);
 }
 
 
+/* The Close Button */
 .close {
-text-decoration:none;
-float:right;
-font-size:24px;
-font-weight:bold;
-color:white;
-cursor: pointer;
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
 }
 
-.modal-content, #caption {   
-  
-    -webkit-animation-name: zoom;
-    -webkit-animation-duration: 0.6s;
-    animation-name: zoom;
-    animation-duration: 0.6s;
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
 }
 
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+	#caption {
+  margin: auto;
+  display: absolute;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+    from {
+    	transform:scale(0)
+    } 
+    to {
+    	transform:scale(1)
+    }
+}
 
 
 @-webkit-keyframes zoom {
@@ -637,14 +664,6 @@ cursor: pointer;
     }
 }
 
-@keyframes zoom {
-    from {
-    	transform:scale(0)
-    } 
-    to {
-    	transform:scale(1)
-    }
-}
 
 
 
