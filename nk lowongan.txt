@@ -1,0 +1,30 @@
+PROGRAMMER STAFF (Kode Lowongan : 01PG) - Penempatan Kantor Pusat Jakarta
+
+PT Nindya Karya (Persero) adalah perusahaan BUMN konstruksi yang bergerak dibidang Jasa Konstruksi, Engineering Procurement Construction (EPC) dan Investasi. Perusahaan senantiasa meningkatkan kinerja dimasa yang akan datang dan memberikan kontribusi bagi pembangunan dan perekonomian negara.
+
+Untuk itu, PT Nindya Karya (Persero) membuka kesempatan karir untuk tenaga Programmer bagian TI & Sistem Terintegrasi (Kode Lowongan : 01PG) dengan kualifikasi sebagai berikut :
+
+    Pria / Wanita, usia maksimal 35 tahun.
+    Pendidikan D3 / S1 Jursan Manajemen Informatika / Teknik Informatika / Sistem Informasi.
+    Menguasai Bahasa Pemprograman PHP, HTML5, CSS3.
+    Menguasai Framework Codeigniter, Laravel.
+    Menguasai CSS (Bootstrap / Foundation / Materialize) di utamakan.
+    Memahami library / framework javascript (react.js / vue.js / jquery / ext.js).
+    Menguasai database mySql dan PostgreSql.
+    Memahami konsep Restfull API.
+    Menguasai Algoritma pemrograman dengan baik.
+    Menguasai cara pemrograman OOP dan MVC di utamakan.
+    Bisa bekerja secara mandiri dan team dengan baik.
+    Berpengalaman mengerjakan Project menggunakan PHP minimal 1 tahun.
+
+ 
+
+Bagi Pelamar yang memenuhi kualifikasi di atas, dapat mengirimkan berkas lamaran paling lambat tanggal 21 Agustus 2020 ke email recruitment@nindyakarya.co.id dengan format : Nama Lengkap_Pendidikan Terakhir_01PG.
+
+Berikut dokumen yang harus dilampirkan :
+
+    Curriculum Vitae (CV).
+    Portofolio.
+    KTP / Identitas diri yang masih berlaku.
+    Pas foto ukuran 4x6 latar berwarna biru.
+    Ijazah dan Transkrip nilai terakhir.
