@@ -12,6 +12,7 @@
   	<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
 	<link rel="shortcut icon" href='meow.png' />
 	<script type="text/javascript" src="function.js"></script>
+	
 
 	<title>Andrew Patrick de Fretes</title>
 
@@ -27,9 +28,14 @@
 			</a>
 		</div>
 
-		<nav id="main-nav">
-			<i class="fa fa-bars"></i>
-			<ul>
+		<nav role="navigation" id="main-nav">
+            <div id="menuToggle">
+				
+              <input id="cbham" type="checkbox" style="display: none;"/>
+                <span></span>
+                <span></span>
+                <span></span>
+            <ul id="menu">
 				<a href="#home"><li>Home</li></a>
 				<a href="#profile"><li>Profile</li></a>
 				<a href="#education"><li>Education</li></a>
@@ -37,9 +43,10 @@
 				<a href="#skill"><li>Skill</li></a>
 				<a href="#portofolio"><li>Portofilio</li></a>
 				<a href="#certificate"><li>Certificate</li></a>
-				<a href="#contact"><li>Social Media &amp; Contact</li></a>				
-			</ul>
-		</nav>
+				<a href="#contact"><li>Social Media &amp; Contact</li></a>	
+            </ul>
+           </div>
+          </nav>
 	</header>
 
 	<!--HOME-->
@@ -344,5 +351,18 @@ for (i = 0; i < coll.length; i++) {
   document.getElementById("modal01").style.display = "block";
 }
 </script>
+<script>
+	
+	$(window).resize(function() {
+  if ($(window).width() <= 480) {
+	document.getElementById("cbham").style.display = "block"; 
+  } else {
+	document.getElementById("cbham").style.display = "none"; 
+  }
+
+});
+
+</script>
+
 </body>
 </html>
